@@ -11,3 +11,36 @@
  *= require_self
  *= require_tree .
  */
+
+$background: white;
+$primary-colour: black;
+$secondary-colour: red;
+$font-family: arial, sans-serif;
+
+%body {
+	background-color: $background;
+}
+
+#page_container {
+	margin: auto;
+	width: 1024px;
+	font-family: $font-family;
+	color: $primary-colour;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0px;
+  li {
+    float: left;
+    margin-right: 10px;
+    a {
+      display: block;
+      padding: 5px 10px;
+      text-decoration: none;
+    }
+    &.selected a, a:hover {
+      color: $secondary-colour;
+    }
+  }
+}

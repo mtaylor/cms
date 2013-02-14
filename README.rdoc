@@ -11,3 +11,8 @@ Includes the following functionality
 
 rake db:migrate
 rake db:seed
+
+=== Customising
+
+* Add header.jpg to /assets/images
+* Set colours in /assets/stylesheets/application.css.scss

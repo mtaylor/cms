@@ -1,0 +1,13 @@
+<%= render(:partial => "/layouts/login", :locals => {
+             :dom_id => 'login',
+             :css => 'login'
+           }) %>
+
+<div id="logo">
+  <%= image_tag "header.jpg" %>
+</div>
+
+<%= render(:partial => "/refinery/menu", :locals => {
+             :dom_id => 'menu',
+             :css => 'menu'
+           }) %>
