@@ -9,23 +9,25 @@ $font-family: Arial, Helvetica, sans-serif;
 @import "header";
 @import "footer";
 @import "home";
+@import "post_it";
 
 body {
 	background-color: $background;
-  font-family: $font-family;
   color: $font-color;
   font-size: 20px;
+  line-height:150%;
+  text-align:justify;
 }
 
 p {
-  line-height:120%;
+  line-height:150%;
 }
 
 h1 {
   font-size: 30px;
   font-weight: bolder;
   color: $primary-color;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -36,8 +38,6 @@ h2 {
 }
 
 p img {
-  width: 90%;
-  height: auto;
   display: table;
 }
 
@@ -69,6 +69,7 @@ img.thumbnail_large {
 
 #content {
 	margin: auto;
+	margin-top: 50px;
 	width: 1024px;
   min-height: 800px;
 }
@@ -82,31 +83,7 @@ img.thumbnail_large {
 
 /** Home **/
   
-#notification {
-  height: 25px;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  max-width: 1024px;
-  display: table;
-}
 
-span.twitter {
-  margin: auto;
-  display: inline-block;
-}
-span.twitter_text {
-  font-size: 20px;
-  font-weight: normal;
-  font-style: italic;
-}
-
-span.twitter_title {
-  font-size: 20px;
-  font-weight: bolder;
-  color: $primary-color;
-  margin-right: 20px;
-}
 
 img.twitter {
   float: left;
@@ -116,19 +93,26 @@ img.twitter {
 }
 
 #home_left {
-  width: 680px;
+  width: 600px;
   float: left;
+  padding-right: 20px;
+  border-right: 0px solid #DDDDDD;
 }
 
 #home_right {
   width: 323px;
-  float: left;
-  border-left: 1px solid black;
+  float: right;
   margin-left: 10px;
   padding-left: 10px;
+  margin-top: 20px;
 }
 
 /** News Item **/
+
+#recent_news {
+  width: 300px;
+  float: right;
+}
 
 .news_item_title {
     text-decoration: none;
@@ -136,10 +120,24 @@ img.twitter {
     margin-bottom: 10px;
 }
 
-.news_item {
-  font-size: 20px;
-  margin-top: 5px;
-  float: left;
+.news_item_div {
   width: 100%;
+  min-height: 110px;
   margin-bottom: 20px;
+}
+.news_item {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+#right_1 {
+  float: right;
+  width: 300px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.section {
+  margin-top: 30px;
 }

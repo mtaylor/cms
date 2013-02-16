@@ -19,3 +19,42 @@ header {
     height: 170px;
     float: left;
 }
+
+#notification {
+  float: left;
+  height: 35px;
+  margin-top: 10px;
+  width: 100%;
+  padding-top: 10px;
+  border-bottom: 5px solid #FFFFFF;
+}
+
+#notification_content {
+  margin: auto;
+  display: table;
+}
+
+span.twitter {
+  margin: auto;
+  display: inline-block;
+}
+span.twitter_text {
+  font-size: 22px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+span.twitter_title {
+  font-size: 22px;
+  font-weight: bolder;
+  color: $primary-color;
+  margin-right: 20px;
+}
+
+#section_1 {
+  margin-top: 20px;
+}
+
+#right_1 {
+  margin-top: 20px;
+}

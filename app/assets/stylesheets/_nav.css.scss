@@ -1,11 +1,11 @@
 nav {
   float: right;
+  font-family: $font-family;
 }
 
 #menu {
   margin-top: 100px;
 }
-
 
 #menu ul {
   list-style: none;
@@ -13,7 +13,7 @@ nav {
   li {
     font-weight: bolder;
     float: left;
-    margin-left: 10px;
+    margin-left: 5px;
     a {
       display: block;
       color: $background;
