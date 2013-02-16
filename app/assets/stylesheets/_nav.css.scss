@@ -1,0 +1,29 @@
+nav {
+  float: right;
+}
+
+#menu {
+  margin-top: 100px;
+}
+
+
+#menu ul {
+  list-style: none;
+  padding: 0px;
+  li {
+    font-weight: bolder;
+    float: left;
+    margin-left: 10px;
+    a {
+      display: block;
+      color: $background;
+      padding: 5px 10px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    &.selected a, a:hover {
+      color: $secondary-color;
+    }
+  }
+}

@@ -5,8 +5,8 @@ gem 'refinerycms-blog', '~> 2.0.0'
 gem 'refinerycms-inquiries', '~> 2.0.0'
 gem 'refinerycms-search', '~> 2.0.0'
 gem "refinerycms-news", '~> 2.0.0'
-
-
+gem 'refinerycms-portfolio', :git => 'git://github.com/NetsydeMiro/refinerycms-portfolio.git', :branch => '7084976a9ec1ec4617c67a24d5424c3c0bc3f0a3'
+gem 'nokogiri'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

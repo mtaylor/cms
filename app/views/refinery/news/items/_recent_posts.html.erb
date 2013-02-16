@@ -1,0 +1,23 @@
+<% require 'nokogiri' %>
+<% @items = Refinery::News::Item.latest(2) %>
+	
+<div id='news' >
+	<h1>
+	  <%=raw @page.content_for(:news_title) %>
+	</h1>
+	<div id='recent_news'>
+		<% @items.each do |item| %>
+			<% doc = Nokogiri::HTML(item.body) %>
+		  	<h2 class='news'>
+		    	<%= link_to item.title, refinery.news_item_path(item), :class => 'news_item_title' %>
+		  	</h2>
+		  	<span class="news_item">
+		  		<% imgs= doc.xpath("//img/@src") %>
+		  		<% if imgs.length > 0 %>
+		  			<%= image_tag doc.xpath("//img/@src").first, :class => "thumbnail_large"%>
+		  		<% end %>
+		  		<%= doc.text %>
+		  	</span>
+		<% end %>
+    </div>
+</div>

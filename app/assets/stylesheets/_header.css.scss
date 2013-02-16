@@ -1,0 +1,21 @@
+@import "social";
+@import "nav";
+
+header {
+  background-color: $primary-color;
+  border-bottom: 2px solid $background;
+  height: 170px;
+  float: left;
+  width: 100%;
+}
+
+#header-content {
+  margin: auto;
+  width: 1024px;
+}
+
+#logo {
+    width: 450px;
+    height: 170px;
+    float: left;
+}

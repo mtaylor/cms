@@ -1,13 +1,18 @@
-<%= render(:partial => "/layouts/login", :locals => {
-             :dom_id => 'login',
-             :css => 'login'
-           }) %>
-
-<div id="logo">
-  <%= image_tag "header.jpg" %>
+<div id='header-content'>
+	<div id="logo">
+	  <%= image_tag "header.png" %>
+	</div>
+	
+	<div id="social">
+	  <%= link_to image_tag("social/facebook.jpg", :class => "social_image"), "http://www.facebook.com" %>
+	  <%= link_to image_tag("social/twitter.png", :class => "social_image"), "http://www.twitter.com" %>
+	  <%= link_to image_tag("social/rss.png", :class => "social_image"), "/news" %>
+	  <%= link_to image_tag("social/blog.png", :class => "social_image"), "/blog" %>
+	  <span class="social">Subscribe:</span> 
+	</div>
+	
+	<%= render(:partial => "/refinery/menu", :locals => {
+	             :dom_id => 'menu',
+	             :css => 'menu'
+	           }) %>
 </div>
-
-<%= render(:partial => "/refinery/menu", :locals => {
-             :dom_id => 'menu',
-             :css => 'menu'
-           }) %>

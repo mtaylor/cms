@@ -1,1 +1,62 @@
-<%= render '/refinery/content_page' %>
+<div id='notification'>
+	<span id='twitter'>
+	  <%= link_to image_tag('social/twitter.png', :class => 'twitter'), 'http://www.twitter.com' %>
+	  <span class='twitter_title'>Hilary: </h1>
+	  <span class='twitter_text'>'Congratulations to all those who took part in today;'s 5K.  It was great fun!'</span>
+	</span>
+</div>
+
+<div id='home_left'>
+	<div id='section_1' >
+		<h1>
+		  <%=raw @page.content_for(:section_1_title) %>
+		</h1>
+				
+		<section id='section_1_text'>
+		  <%=raw @page.content_for(:section_1_text) %>
+		</section>
+	</div>
+	<%= render :partial => '/refinery/news/items/recent_posts' %>
+	<div id='section_2' >
+		<h1>
+		  <%=raw @page.content_for(:section_2_title) %>
+		</h1>
+		<span>
+		<div class="section_image_right">
+			<%=raw @page.content_for(:section_2_image) %>
+		</div>
+		<%=raw @page.content_for(:section_2_text) %>
+		</span>
+	</div>
+	<div id='section_3' >
+		<section id='section_2_title'>
+		  <%=raw @page.content_for(:section_3_title) %>
+		</section>
+		
+		<section id='section_2_image'>
+		  <%=raw @page.content_for(:section_3_image) %>
+		</section>
+		
+		<section id='section_2_text'>
+		  <%=raw @page.content_for(:section_3_text) %>
+		</section>
+	</div>
+</div>
+
+<div id='home_right'>
+	<div id='section_4' >
+		<center>
+			<h1>
+			  <%=raw @page.content_for(:section_4_title) %>
+			</h1>
+			<section id='section_4_image'>
+				<%=raw @page.content_for(:section_4_image) %>
+			</section>
+			<section id='section_4_text'>
+			  <%=raw @page.content_for(:section_4_text) %>
+			</section>
+		</center>
+	</div>
+	<div id='home_calendar'></div>
+	<div id='home_map'></div>
+</div>
