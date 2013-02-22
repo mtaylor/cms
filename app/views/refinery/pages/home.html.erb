@@ -1,20 +1,33 @@
-<div id='home_right'>
-	<center>
-		<div id='right_1' class='section' >
-			<%= raw @page.content_for(:right_1) %>
-		</div>
-	</center>
-	<div id='recent_news'>
-		<%= render :partial => '/refinery/news/items/recent_posts' %>
+<div id='notification'>
+	<div id='notification_content'>
+		<span id='twitter'>
+		  <%= link_to image_tag('social/twitter.png', :class => 'twitter'), 'http://www.twitter.com' %>
+		  <span class='twitter_title'>Hilary: </h1>
+		  <span class='twitter_text'>'Congratulations to all those who took part in today;'s 5K.  It was great fun!'</span>
+		</span>
 	</div>
 </div>
-	<div class='section'>
-		<%=raw remove_imgs @page.content_for(:section_1)%>
+
+<div id="content">
+	<div id='home_right'>
+		<center>
+			<div id='right_1' class='section' >
+				<%= raw @page.content_for(:right_1) %>
+			</div>
+		</center>
+		<div id='recent_news'>
+			<%= render :partial => '/refinery/news/items/recent_posts' %>
+		</div>
 	</div>
-	<div class='section' >
-		<%= raw @page.content_for(:section_2) %>
-	</div>
-	<div class='section' >
-		<%= raw @page.content_for(:section_3) %>
+	<div id='home_left'>
+		<div class='section'>
+			<%=raw remove_imgs @page.content_for(:section_1)%>
+		</div>
+		<div class='section' >
+			<%= raw @page.content_for(:section_2) %>
+		</div>
+		<div class='section' >
+			<%= raw @page.content_for(:section_3) %>
+		</div>
 	</div>
 </div>

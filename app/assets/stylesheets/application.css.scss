@@ -58,16 +58,11 @@ img.thumbnail_large {
   float: left; 
 }
 
-#page {
-  width: 1024px;
-  float: left;
-}
-
 #content {
 	margin: auto;
-	margin-top: 50px;
 	width: 1024px;
   min-height: 800px;
+  margin-top: 10px;
 }
 
 #container {
@@ -79,7 +74,10 @@ img.thumbnail_large {
 
 /** Home **/
   
-
+#page {
+  margin: 0px;
+  padding: 0px;
+}
 
 img.twitter {
   float: left;
@@ -89,7 +87,7 @@ img.twitter {
 }
 
 #home_left {
-  width: 600px;
+  width: 660px;
   float: left;
   padding-right: 20px;
   border-right: 0px solid #DDDDDD;
@@ -100,7 +98,6 @@ img.twitter {
   float: right;
   margin-left: 10px;
   padding-left: 10px;
-  margin-top: 20px;
 }
 
 /** News Item **/
@@ -135,14 +132,21 @@ img.twitter {
 }
 
 .section {
-  margin-top: 30px;
-  background-color: #F8F8F8;
+  margin-bottom: 30px;
   margin-right: 10px;
   padding: 10px;
-  width: 65%;
+  width: 100%;
 }
 
 section {
   margin-top: 30px;
   width: 100%;
+}
+
+//Gallery 
+.gallery-thumbs img
+{
+  margin: 15px;
+  border: solid 5px $primary-color;
+  width: 160px;
 }
