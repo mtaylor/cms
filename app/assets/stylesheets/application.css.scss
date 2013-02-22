@@ -41,10 +41,6 @@ p img {
   display: table;
 }
 
-section {
-  margin-bottom: 30px;
-}
-
 img.thumbnail_large {
   height: 60px;
   width: auto;
@@ -140,4 +136,13 @@ img.twitter {
 
 .section {
   margin-top: 30px;
+  background-color: #F8F8F8;
+  margin-right: 10px;
+  padding: 10px;
+  width: 65%;
+}
+
+section {
+  margin-top: 30px;
+  width: 100%;
 }
