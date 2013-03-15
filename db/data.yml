@@ -1,69 +1,5 @@
 
 ---
-refinery_blog_posts:
-  columns:
-  - id
-  - title
-  - body
-  - draft
-  - published_at
-  - created_at
-  - updated_at
-  - user_id
-  - cached_slug
-  - custom_url
-  - custom_teaser
-  - source_url
-  - source_url_title
-  - access_count
-  - slug
-  records: 
-  - - 1
-    - Meteorites hit Russia.
-    - ! "\r\n<p>XPath uses path expressions to select nodes or node-sets in an XML
-      document. The node is selected by following a path or steps.</p>"
-    - false
-    - '2013-02-15 20:50:00.000000'
-    - '2013-02-15 20:51:15.374972'
-    - '2013-02-22 18:11:57.026303'
-    - 1
-    - 
-    - ''
-    - ''
-    - ''
-    - ''
-    - 4
-    - meteorites-hit-russia
-  - - 2
-    - Google Example Blog Post
-    - ! "<p>More than 2,300 students from across the globe applied for the first Google
-      Journalism Fellowship. The interest the Fellowship attracted clearly demonstrates
-      the need for these types of opportunities, especially as the worlds of journalism
-      and technology increasingly become one.</p>\r\n<p>The students who have been
-      picked for the 10-week program will get the chance to work with organizations
-      focused on exciting projects ranging from those steeped in investigative journalism
-      to those working for press freedom around the world and to those that are helping
-      the industry figure out its future in the digital age. They will also spend
-      a week with the Knight Foundation and a week with Google.</p>\r\n<p>We had so
-      many applications—on the last day they poured in at a rate of roughly one every
-      two minutes—that we extended our review period by a week to make selections.
-      Our host organizations had the unenviable task of choosing just one Fellow out
-      of the mass of talented students who applied; the Nieman Journalism Lab is taking
-      two Fellows.</p>\r\n<p>The Fellows who will take part in the program are:</p>"
-    - false
-    - '2013-02-22 18:18:00.000000'
-    - '2013-02-22 18:19:35.718475'
-    - '2013-02-22 18:19:35.718475'
-    - 1
-    - 
-    - ''
-    - ''
-    - ''
-    - ''
-    - 0
-    - google-example-blog-post
-
----
 refinery_images:
   columns:
   - id
@@ -77,36 +13,6 @@ refinery_images:
   - created_at
   - updated_at
   records: 
-  - - 1
-    - image/jpeg
-    - hillary.jpg
-    - 10620
-    - 160
-    - 160
-    - 2013/02/14/17_27_49_623_hillary.jpg
-    - 
-    - '2013-02-14 17:27:49.626377'
-    - '2013-02-14 17:27:49.626377'
-  - - 5
-    - image/png
-    - landscape.png
-    - 344375
-    - 1024
-    - 200
-    - 2013/02/15/12_30_39_758_landscape.png
-    - 
-    - '2013-02-15 12:30:39.761041'
-    - '2013-02-15 12:30:39.761041'
-  - - 6
-    - image/png
-    - landscape.png
-    - 276800
-    - 1024
-    - 200
-    - 2013/02/15/12_32_24_411_landscape.png
-    - 
-    - '2013-02-15 12:32:24.414139'
-    - '2013-02-15 12:32:24.414139'
   - - 7
     - image/jpeg
     - index.jpg
@@ -117,26 +23,46 @@ refinery_images:
     - 
     - '2013-02-15 18:24:56.943238'
     - '2013-02-15 18:24:56.943238'
-  - - 8
+  - - 10
     - image/jpeg
-    - comes.jpg
-    - 5307
-    - 240
-    - 210
-    - 2013/02/15/19_41_26_59_comes.jpg
+    - IMG_0259.JPG
+    - 171876
+    - 600
+    - 800
+    - 2013/03/14/19_32_20_874_IMG_0259.JPG
     - 
-    - '2013-02-15 19:41:26.060383'
-    - '2013-02-15 19:41:26.060383'
-  - - 9
+    - '2013-03-14 19:32:20.881452'
+    - '2013-03-14 19:32:20.881452'
+  - - 11
     - image/jpeg
-    - blaydon_race.jpg
-    - 74991
-    - 400
-    - 400
-    - 2013/02/22/08_48_45_969_blaydon_race.jpg
+    - 535502_264358123696098_2021785237_n.jpg
+    - 47158
+    - 960
+    - 720
+    - 2013/03/14/19_36_31_227_535502_264358123696098_2021785237_n.jpg
     - 
-    - '2013-02-22 08:48:45.969982'
-    - '2013-02-22 08:48:45.969982'
+    - '2013-03-14 19:36:31.228952'
+    - '2013-03-14 19:36:31.228952'
+  - - 12
+    - image/jpeg
+    - IMG_0227.JPG
+    - 257672
+    - 600
+    - 800
+    - 2013/03/14/20_46_14_411_IMG_0227.JPG
+    - 
+    - '2013-03-14 20:46:14.412318'
+    - '2013-03-14 20:46:14.412318'
+  - - 13
+    - image/jpeg
+    - IMG_0112.JPG
+    - 197015
+    - 600
+    - 800
+    - 2013/03/14/20_49_25_0_IMG_0112.JPG
+    - 
+    - '2013-03-14 20:49:25.000973'
+    - '2013-03-14 20:49:25.000973'
 
 ---
 refinery_news_item_translations:
@@ -150,46 +76,19 @@ refinery_news_item_translations:
   - updated_at
   - source
   records: 
-  - - 1
-    - 1
+  - - 6
+    - 6
     - en
-    - New vests in
-    - <p><img rel="110x110" alt="Hillary" title="Hillary" src="/system/images/W1siZiIsIjIwMTMvMDIvMTQvMTdfMjdfNDlfNjIzX2hpbGxhcnkuanBnIl0sWyJwIiwidGh1bWIiLCIxMTB4MTEwPiJdXQ/hillary.jpg"
-      height="110" width="110" />For all of you who have been waiting for the new
-      vests.&#160; We now have 20 in stock. £10 each bargain.&#160; email us your
-      order or speak to hillary.</p>
-    - '2013-02-15 18:43:21.113823'
-    - '2013-02-15 18:43:21.115589'
-    - 
-  - - 3
-    - 3
-    - en
-    - Pic of the day week goes to Jimmy Shaw.
-    - <p><img rel="110x110" alt="Index" title="Index" src="/system/images/W1siZiIsIjIwMTMvMDIvMTUvMThfMjRfNTZfOTQyX2luZGV4LmpwZyJdLFsicCIsInRodW1iIiwiMTEweDExMD4iXV0/index.jpg"
-      height="82" width="110" />For all of you who have been waiting for the new vests.  We
-      now have 20 in stock. £10 each bargain.  email us your order or speak to hillary.</p>
-    - '2013-02-15 19:35:08.070284'
-    - '2013-02-15 19:35:08.072019'
-    - 
-  - - 4
-    - 4
-    - en
-    - More Running.. New trainers
-    - <p><img rel="110x110" alt="Hillary" title="Hillary" src="/system/images/W1siZiIsIjIwMTMvMDIvMTQvMTdfMjdfNDlfNjIzX2hpbGxhcnkuanBnIl0sWyJwIiwidGh1bWIiLCIxMTB4MTEwPiJdXQ/hillary.jpg"
-      height="110" width="110" />For all of you who have been waiting for the new
-      vests.  We now have 20 in stock. £10 each bargain.  email us your order or speak
-      to hillary.</p>
-    - '2013-02-15 19:35:45.189145'
-    - '2013-02-15 19:35:45.191409'
-    - 
-  - - 5
-    - 5
-    - en
-    - Annie 4 Shaw
-    - <p><img rel="225x255" alt="Comes" title="Comes" src="/system/images/W1siZiIsIjIwMTMvMDIvMTUvMTlfNDFfMjZfNTlfY29tZXMuanBnIl0sWyJwIiwidGh1bWIiLCIyMjV4MjU1PiJdXQ/comes.jpg"
-      height="197" width="225" />Annie for shaw.&#160; Thankyou for lvely dinner today.</p>
-    - '2013-02-15 20:49:43.252079'
-    - '2013-02-15 20:49:43.253735'
+    - Taster session
+    - <p><img rel="225x255" alt="Img 0259" title="Img 0259" src="/system/images/W1siZiIsIjIwMTMvMDMvMTQvMTlfMzJfMjBfODc0X0lNR18wMjU5LkpQRyJdLFsicCIsInRodW1iIiwiMjI1eDI1NT4iXV0/IMG_0259.JPG"
+      height="255.5" width="191.5" />Our new ‘taster’ sessions got off to a good start
+      with two new High Fell Hill Runners enjoying some muddy trails on Waldridge
+      Fell.  Cold and wet but enjoyable and certainly an area to explore a bit more
+      – lots of trail routes to discover.  On Saturday we were also rewarded with
+      the beautiful sight of three deer in the woods by the stream running through
+      the fell.</p>
+    - '2013-03-14 19:26:13.249731'
+    - '2013-03-14 19:33:45.084000'
     - 
 
 ---
@@ -206,55 +105,22 @@ refinery_news_items:
   - source
   - slug
   records: 
-  - - 1
-    - New vests in
-    - <p><img rel="110x110" alt="Hillary" title="Hillary" src="/system/images/W1siZiIsIjIwMTMvMDIvMTQvMTdfMjdfNDlfNjIzX2hpbGxhcnkuanBnIl0sWyJwIiwidGh1bWIiLCIxMTB4MTEwPiJdXQ/hillary.jpg"
-      height="110" width="110" />For all of you who have been waiting for the new
-      vests.&#160; We now have 20 in stock. £10 each bargain.&#160; email us your
-      order or speak to hillary.</p>
-    - '2013-02-15 18:42:00.000000'
-    - '2013-02-15 18:43:21.112442'
-    - '2013-02-15 18:43:21.112442'
+  - - 6
+    - Taster session
+    - <p><img rel="225x255" alt="Img 0259" title="Img 0259" src="/system/images/W1siZiIsIjIwMTMvMDMvMTQvMTlfMzJfMjBfODc0X0lNR18wMjU5LkpQRyJdLFsicCIsInRodW1iIiwiMjI1eDI1NT4iXV0/IMG_0259.JPG"
+      height="255.5" width="191.5" />Our new ‘taster’ sessions got off to a good start
+      with two new High Fell Hill Runners enjoying some muddy trails on Waldridge
+      Fell.  Cold and wet but enjoyable and certainly an area to explore a bit more
+      – lots of trail routes to discover.  On Saturday we were also rewarded with
+      the beautiful sight of three deer in the woods by the stream running through
+      the fell.</p>
+    - '2013-03-14 19:25:00.000000'
+    - '2013-03-14 19:26:13.207606'
+    - '2013-03-14 19:33:45.081891'
     - 
     - 
-    - ''
-    - new-vests-in
-  - - 3
-    - Pic of the day week goes to Jimmy Shaw.
-    - <p><img rel="110x110" alt="Index" title="Index" src="/system/images/W1siZiIsIjIwMTMvMDIvMTUvMThfMjRfNTZfOTQyX2luZGV4LmpwZyJdLFsicCIsInRodW1iIiwiMTEweDExMD4iXV0/index.jpg"
-      height="82" width="110" />For all of you who have been waiting for the new vests.  We
-      now have 20 in stock. £10 each bargain.  email us your order or speak to hillary.</p>
-    - '2013-02-15 19:34:00.000000'
-    - '2013-02-15 19:35:08.069056'
-    - '2013-02-15 19:35:08.069056'
-    - 
-    - 
-    - ''
-    - pic-of-the-day-week-goes-to-jimmy-shaw
-  - - 4
-    - More Running.. New trainers
-    - <p><img rel="110x110" alt="Hillary" title="Hillary" src="/system/images/W1siZiIsIjIwMTMvMDIvMTQvMTdfMjdfNDlfNjIzX2hpbGxhcnkuanBnIl0sWyJwIiwidGh1bWIiLCIxMTB4MTEwPiJdXQ/hillary.jpg"
-      height="110" width="110" />For all of you who have been waiting for the new
-      vests.  We now have 20 in stock. £10 each bargain.  email us your order or speak
-      to hillary.</p>
-    - '2013-02-15 19:35:00.000000'
-    - '2013-02-15 19:35:45.187653'
-    - '2013-02-15 19:35:45.187653'
-    - 
-    - 
-    - ''
-    - more-running-new-trainers
-  - - 5
-    - Annie 4 Shaw
-    - <p><img rel="225x255" alt="Comes" title="Comes" src="/system/images/W1siZiIsIjIwMTMvMDIvMTUvMTlfNDFfMjZfNTlfY29tZXMuanBnIl0sWyJwIiwidGh1bWIiLCIyMjV4MjU1PiJdXQ/comes.jpg"
-      height="197" width="225" />Annie for shaw.&#160; Thankyou for lvely dinner today.</p>
-    - '2013-02-15 20:49:00.000000'
-    - '2013-02-15 20:49:43.250957'
-    - '2013-02-15 20:49:43.250957'
-    - 
-    - 
-    - ''
-    - annie-4-shaw
+    - Taster session
+    - taster-session
 
 ---
 refinery_page_part_translations:
@@ -273,42 +139,18 @@ refinery_page_part_translations:
       href='/'>Return to the home page</a></p>
     - '2013-02-14 17:18:07.504116'
     - '2013-02-14 17:18:07.506169'
-  - - 4
-    - 4
-    - en
-    - ! "<p>This is just a standard text page example. Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit. Proin metus dolor, hendrerit sit amet, aliquet
-      nec, posuere sed, purus. Nullam et velit iaculis odio sagittis placerat. Duis
-      metus tellus, pellentesque ut, luctus id, egestas a, lorem. Praesent vitae mauris.
-      Aliquam sed nulla. Sed id nunc vitae leo suscipit viverra. Proin at leo ut lacus
-      consequat rhoncus. In hac habitasse platea dictumst. Nunc quis tortor sed libero
-      hendrerit dapibus.\r\n\r\nInteger interdum purus id erat. Duis nec velit vitae
-      dolor mattis euismod. Class aptent taciti sociosqu ad litora torquent per conubia
-      nostra, per inceptos himenaeos. Suspendisse pellentesque dignissim lacus. Nulla
-      semper euismod arcu. Suspendisse egestas, erat a consectetur dapibus, felis
-      orci cursus eros, et sollicitudin purus urna et metus. Integer eget est sed
-      nunc euismod vestibulum. Integer nulla dui, tristique in, euismod et, interdum
-      imperdiet, enim. Mauris at lectus. Sed egestas tortor nec mi.</p>"
-    - '2013-02-14 17:18:07.987967'
-    - '2013-02-14 17:21:09.628759'
-  - - 5
-    - 5
-    - en
-    - <p>sdsadsadasdasdsadsa</p>
-    - '2013-02-14 17:18:08.147007'
-    - '2013-02-14 17:21:09.632036'
   - - 6
     - 6
     - en
-    - 
+    - ''
     - '2013-02-14 17:18:09.444692'
-    - '2013-02-14 17:18:09.444692'
+    - '2013-03-14 19:40:11.018157'
   - - 7
     - 7
     - en
-    - 
+    - ''
     - '2013-02-14 17:18:09.598062'
-    - '2013-02-14 17:18:09.598062'
+    - '2013-03-14 19:40:11.020733'
   - - 8
     - 8
     - en
@@ -379,54 +221,43 @@ refinery_page_part_translations:
   - - 32
     - 32
     - en
-    - <p>HFHR News</p>
+    - <h2>HFHR News</h2>
     - '2013-02-15 18:29:55.013171'
-    - '2013-02-15 18:29:55.014427'
-  - - 33
-    - 33
-    - en
-    - ! "<h1>HFHR</h1>\r\n<div>High Fell Hill Runners was started by HIllary Shaw...
-      We are a group of like minded urban based fell runners who appreciate the outdoors
-      and love training on the fells. We usually go out on a Saturday afternoon, often
-      in the Cheviots. Come and join us! All welcome. Foonar</div>"
-    - '2013-02-16 10:56:00.795289'
-    - '2013-02-16 10:56:00.796782'
+    - '2013-03-14 21:07:45.036072'
   - - 34
     - 34
     - en
-    - ! "<h1>Training</h1>\r\n<p><img class=\"image-align-left\" rel=\"110x110\" alt=\"Comes\"
-      title=\"Comes\" src=\"/system/images/W1siZiIsIjIwMTMvMDIvMTUvMTlfNDFfMjZfNTlfY29tZXMuanBnIl0sWyJwIiwidGh1bWIiLCIxMTB4MTEwPiJdXQ/comes.jpg\"
-      height=\"96.33333400000001\" width=\"110.33333400000001\" />\r\n\r\n</p>\r\n<p>We
-      are a group of like minded urban based fell runners who appreciate the outdoors
-      and love training on the fells. We usually go out on a Saturday afternoon, often
-      in the Cheviots. Come and join us! All welcome. We are a group of like minded
-      urban based fell runners who appreciate the outdoors and We are a group of like
-      minded urban based fell runners who appreciate the</p>\r\n"
+    - ! "<h1>Training</h1>\r\n<p><img class=\"image-align-right\" rel=\"225x255\"
+      alt=\"Img 0112\" title=\"Img 0112\" src=\"/system/images/W1siZiIsIjIwMTMvMDMvMTQvMjBfNDlfMjVfMF9JTUdfMDExMi5KUEciXSxbInAiLCJ0aHVtYiIsIjIyNXgyNTU%2BIl1d/IMG_0112.JPG\"
+      height=\"255.5\" width=\"191.5\" />We usually train every other Saturday afternoon
+      often going up to the Cheviots, down to North Yorkshire, along the Roman Wallor
+      over to the lakes (which is more of a full day than an afternoon session!).
+      A few of us also go out on the ‘in between’ Saturdays to run local trail routes
+      … ideal for someone coming back from injury or for absolute newcomers who want
+      to build up a bit of ‘off road’ confidence.</p>\r\n<p><br />We usually leave
+      Gateshead at 11.30a.m., meeting outside the Little Theatre which is next to
+      Saltwell Park. Car and fuel share isn’t only available … it’s encouraged! Come
+      along and join the fun. It’s a great way to meet new people while enjoying the
+      beauty of the hills! For dates and routes click on the training link above.
+      (I’ve attached this separately)</p>"
     - '2013-02-16 11:02:01.925443'
-    - '2013-02-16 17:13:00.536658'
+    - '2013-03-14 20:56:19.964943'
   - - 35
     - 35
     - en
-    - ! "<h1>Training</h1>\r\n<p><img class=\"image-align-right\" rel=\"110x110\"
-      alt=\"Hillary\" title=\"Hillary\" src=\"http://localhost:3000/system/images/W1siZiIsIjIwMTMvMDIvMTQvMTdfMjdfNDlfNjIzX2hpbGxhcnkuanBnIl0sWyJwIiwidGh1bWIiLCIxMTB4MTEwPiJdXQ/hillary.jpg\"
-      height=\"110.33333400000001\" width=\"110.33333400000001\" />We are a group
-      of like minded urban based fell runners who appreciate the outdoors and love
-      training on the fells. We usually goout on a Saturday afternoon, often in the
-      Cheviots. Come and join us! All welcome. We are a group of like minded urban
-      based fell runners who appreciate the outdoors and We are a group of like minded
-      urban based fell runners who appreciate the</p>"
+    - ''
     - '2013-02-16 11:55:46.169387'
-    - '2013-02-16 11:55:46.171045'
+    - '2013-03-14 20:56:31.908494'
   - - 36
     - 36
     - en
-    - ! "<h2>Picture of the week</h2>\r\n<p><img rel=\"450x450\" alt=\"Index\" title=\"Index\"
-      src=\"/system/images/W1siZiIsIjIwMTMvMDIvMTUvMThfMjRfNTZfOTQyX2luZGV4LmpwZyJdLFsicCIsInRodW1iIiwiNDUweDQ1MD4iXV0/index.jpg\"
-      height=\"194.33333399999998\" width=\"259.33333400000004\" />\r\n</p>\r\n<p><strong><span
-      class=\"font-size-small\">Some random castle&#160;</span>\r\n</strong>\r\n</p>\r\n<p><span
-      class=\"font-size-small text-align-center\">Picture taken by Jimmy shaw</span>\r\n</p>"
+    - ! "<h2>Picture of the Month</h2>\r\n<p><img rel=\"225x255\" alt=\"535502 264358123696098
+      2021785237 N\" title=\"535502 264358123696098 2021785237 N\" src=\"/system/images/W1siZiIsIjIwMTMvMDMvMTQvMTlfMzZfMzFfMjI3XzUzNTUwMl8yNjQzNTgxMjM2OTYwOThfMjAyMTc4NTIzN19uLmpwZyJdLFsicCIsInRodW1iIiwiMjI1eDI1NT4iXV0/535502_264358123696098_2021785237_n.jpg\"
+      height=\"169.5\" width=\"225.5\" />\r\n</p>\r\n<p><strong><span class=\"font-size-small\">A
+      view of Buttermere&#160;</span>\r\n</strong>\r\n</p>\r\n<p><span class=\"font-size-small
+      text-align-center\">Picture taken by Jimmy shaw</span>\r\n</p>"
     - '2013-02-16 11:58:06.544706'
-    - '2013-02-16 17:20:11.471470'
+    - '2013-03-14 19:39:11.201912'
   - - 37
     - 37
     - en
@@ -442,34 +273,212 @@ refinery_page_part_translations:
   - - 39
     - 39
     - en
-    - <p>&lt;iframe src="https://www.google.com/calendar/embed?height=600&amp;amp;wkst=1&amp;amp;bgcolor=%23FFFFFF&amp;amp;src=1u5ffhdc7c1rkqgg91c5pp02f4%40group.calendar.google.com&amp;amp;color=%23856508&amp;amp;ctz=Europe%2FLondon"
-      style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</p>
+    - ! "<h2>Next training session</h2>\r\n<h3>Saturday 16th March... \r\n</h3>\r\n<strong><span
+      class=\"font-size-small\">Cheviot, Hedgehope, Langlee Crags, Brands Corner,
+      Carey Burn Bridge. <br />&#160;Leaving Gateshead at 9.30 am.&#160; \r\n</span>\r\n</strong>\r\n<p><span
+      class=\"font-size-small\">Car/fuel share available.</span>\r\n</p>"
     - '2013-02-16 12:15:34.669913'
-    - '2013-02-16 12:15:34.672201'
+    - '2013-03-14 21:19:50.813392'
   - - 42
     - 42
     - en
-    - ! "<h2>Blaydon Race</h2>\r\n<p>The 1<img class=\"image-align-left\" rel=\"110x110\"
-      alt=\"Blaydon Race\" title=\"Blaydon Race\" src=\"http://localhost:3000/system/images/W1siZiIsIjIwMTMvMDIvMjIvMDhfNDhfNDVfOTY5X2JsYXlkb25fcmFjZS5qcGciXSxbInAiLCJ0aHVtYiIsIjExMHgxMTA%2BIl1d/blaydon_race.jpg\"
-      height=\"109.76666\" width=\"109.76666\" />862 Blaydon Races Song is the National
-      Anthem of Tyneside.  The words of the song are used as a basis for everything
-      in the race where possible. For example the event takes place every \"Ninth
-      of June\" in accord with the song's first line:- \"Aa went to Blaydon Races
-      t'was on the Ninth of June\"<br />                       </p>"
+    - ! "\r\n<table cellpadding=\"3\" cellspacing=\"0\" width=\"650\">\r\n\r\n<tbody>\r\n
+      \ <tr>\r\n  <td>Date\r\n  </td>\r\n<td>Location</td>\r\n  <td>Distance</td>\r\n
+      \ <td>Route</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\nJan 1\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<strong>Hillforts &amp; Headaches</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nAS / 3mi / 1020' [5km / 310m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/races/notices/2012/Simonside_Cairns_and_Hill_Forts.pdf\"
+      target=\"_blank\">\r\nflyer (with Cairns race)\r\n</a>\r\n|<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/HillFortsHeadaches_2.html\">
+      route</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2291\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nFeb 17\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nCommondale
+      Clart <em>NEHRA</em>\r\n</p>\r\n</td>\r\n<td>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NECAA_NEHRA_%20Championship_2013.pdf\"
+      target=\"_blank\">\r\nNEHRA\r\n</a>\r\n| <a href=\"http://www.eskvalleyfellclub.org/\"
+      target=\"_blank\">EVFC</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\nMar
+      3\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nGlaisdale Rigg NFR\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nBM 8.5mi / 1840' [14km / 560m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n| <a href=\"http://www.eskvalleyfellclub.org/\" target=\"_blank\">EVFC</a>
+      | <a href=\"http://fellrunner.org.uk/races.php?id=2219\" target=\"_blank\">
+      FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\n10\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<strong>Brough Law </strong>\r\n<em>NEHRA</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nAS / 5mi / 1250' [8km / 380m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/BroughLaw_2.html\">route</a>\r\n|
+      <a href=\"http://fellrunner.org.uk/races.php?id=2386\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n30\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nCausey
+      Pike <em>NFR</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nAS / 4.5mi
+      / 1780' [7.2km / 543m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n|<a href=\"http://www.keswick-ac.org.uk/\" target=\"_blank\">
+      Keswick AC</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2325\" target=\"_blank\">
+      FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\nApr
+      6\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>\r\nAllendale Challenge\r\n<br
+      />\r\n</strong>\r\nwalk / run event\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nBL
+      / 25mi / 3400' [40km / 1040m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.streetmap.co.uk/streetmap.dll?G2M?X=383749&amp;Y=555901&amp;A=Y&amp;Z=4\"
+      target=\"_blank\">start location</a>\r\n| <a href=\"http://www.northoftynesearchandrescue.org.uk/pages/allendale.html\"
+      target=\"_blank\">NOTSRT</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n20\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nAnniversary
+      Waltz <em>NFR</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nAM / 11.5mi
+      / 3600' [18.5km / 1097m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n|<a href=\"http://fellrunner.org.uk/races.php?id=2706\" target=\"_blank\">
+      </a>\r\n<a href=\"http://www.anniversarywaltz.co.uk/\" target=\"_blank\">Anniversary
+      Waltz</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2706\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n21\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nGuisborough
+      Moors <em>NEHRA</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nBL /
+      12.4mi / 2790' [20km / 850m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NECAA_NEHRA_%20Championship_2013.pdf\"
+      target=\"_blank\">\r\nNEHRA\r\n</a>\r\n| <a href=\"http://www.eskvalleyfellclub.org/\"
+      target=\"_blank\">EVFC</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\nMay
+      5\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nFox &amp; Hounds Chase <em>NFR</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nBM / 9mi / 1500' [14.5mi / 457m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n| <a href=\"http://www.eskvalleyfellclub.org/\" target=\"_blank\">EVFC</a>
+      | <a href=\"http://fellrunner.org.uk/races.php?id=2230\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nJun 1\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nDuddon
+      <em>NFR</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nAL / 18m / 6000'
+      [29km / 1830m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n| <a href=\"http://duddonvalley.fellrace.org.uk/\" target=\"_blank\">Duddon
+      Valley</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2191\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n2\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nYetholm
+      Hill Race\r\n<br />\r\n***British Championship\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nAM / 8mi / 2500' [13km / 760m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n* <a href=\"https://www.sientries.co.uk/event.php?elid=Y&amp;event_id=975\"
+      target=\"_blank\">online entry</a> |<a href=\"http://www.streetmap.co.uk/streetmap.dll?G2M?X=384045&amp;Y=627610&amp;A=Y&amp;Z=4\"
+      target=\"_blank\">start location</a> |<a href=\"http://www.norhamrc.co.uk/yethr.html\"
+      target=\"_blank\">Norham RC</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2496\"
+      target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\n8\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<strong>Alwinton Fell Race</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nBL / 14mi / 2650' [23km / 808m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/races/notices/2012/Alwinton_FR_Course_Details_and_Entry_Form_2012.pdf\"
+      target=\"_blank\">\r\ndetails\r\n</a>\r\n|<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/AlwintonLong_2.html\">
+      route </a>| <a href=\"http://fellrunner.org.uk/races.php?id=2569\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n15\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>Roman
+      Wall Show</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nBS / 4.4mi
+      / 620' [7km / 190m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a href=\"http://fellrunner.org.uk/races.php?id=2347\"
+      target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\n19\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<strong>Humbleton Fell Race</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nBS / 5.3mi / 787' [8.5km / 240m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n|<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/Humbleton_Fell_Race_map.pdf\"
+      target=\"_blank\"> map</a> (pdf) |<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/HumbletonFell.html\">route</a>
+      | <a href=\"http://www.northumberlandfellrunners.co.uk/html/races/notices/2012/Humbleton_Fell_Race_poster.pdf\"
+      target=\"_blank\">poster</a>\r\n|<a href=\"http://fellrunner.org.uk/races.php?id=2380\"
+      target=\"_blank\"> FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\n22\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nDurham Dales Challenge\r\n<br />\r\nwalk / run event\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n16 miles or 30 miles\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.ldwa.org.uk/Northumbria/E/11128/24th-durham-dales-challenge.html\"
+      target=\"_blank\">LDWA Northumbria</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n23\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>Windy
+      Gyle</strong>\r\n<em> NEHRA</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nBM
+      / 9mi / 1800' [14km / 550m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.northumberlandfellrunners.co.uk/html/races/notices/2012/WGFR_Pub_Poster_2.0_2012.pdf\"
+      target=\"_blank\">poster </a>\r\n|\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/races/notices/2012/WGFR_Course_Details_and_Entry_Form_2012.pdf\"
+      target=\"_blank\">\r\ndetails\r\n</a>\r\n|\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NECAA_NEHRA_%20Championship_2013.pdf\"
+      target=\"_blank\">\r\nNEHRA\r\n</a>\r\n|<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/WindyGyle_2.html\">
+      route</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2574\" target=\"_blank\">
+      FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\n30\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nCronkley Fell Race<em> NEHRA</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nBM / 10.5mi / 1755' [17km / 535m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.durhamfellrunners.org.uk/\" target=\"_blank\">DFR
+      website</a>\r\n|\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NECAA_NEHRA_%20Championship_2013.pdf\"
+      target=\"_blank\">\r\nNEHRA\r\n</a>\r\n|<a href=\"http://fellrunner.org.uk/races.php?id=2472\"
+      target=\"_blank\"> FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\nJul
+      2\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nSaltwell Harriers Fell Race\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nBS / 5.5mi / 1000' [9km / 305m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/SaltwellHarriersFell_2.html\">route
+      </a>\r\n|<a href=\"http://fellrunner.org.uk/races.php?id=2372\" target=\"_blank\">
+      FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\n6\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<strong>Chevy Chase</strong>\r\n\r\nwalk / run event\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nBL / 20mi / 4000' [32km / 1220m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.streetmap.co.uk/streetmap.dll?G2M?X=399120&amp;Y=627770&amp;A=Y&amp;Z=4\"
+      target=\"_blank\">start location</a>\r\n| <a href=\"http://www.woolerrunningclub.co.uk/Chevy%20Chase.html\"
+      target=\"_blank\">Wooler RC</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2435\"
+      target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\n11\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<strong>Beacon Hill </strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nAS / 5.75mi / 1500' [9km / 460m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/BeaconHill_2.html\">route</a>\r\n|<a
+      href=\"http://fellrunner.org.uk/races.php?id=2292\" target=\"_blank\"> FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n21\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nConiston
+      Country Fair <em>NFR</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nAS
+      / 6mi / 2402' [10km / 730m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n| <a href=\"http://fellrunner.org.uk/races.php?id=2495\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nAug 11\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>Forest
+      Burn</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nBS / 3.2mi /
+      450' [6km / 150m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/ForestBurn_2.html\">route</a>\r\n|<a
+      href=\"http://fellrunner.org.uk/races.php?id=2387\" target=\"_blank\"> FRA</a>\r\n<a
+      href=\"http://www.fellrunner.org.uk/races.php?id=1787\" target=\"_blank\"> </a>|
+      <a href=\"http://www.simonsidefair.co.uk/index.html\" target=\"_blank\"> Simonside
+      Fair</a> |\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\n18\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nSedbergh Hills <em>NFR</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nAL / 14m / 6004' [23km / 1830m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n| <a href=\"http://fellrunner.org.uk/races.php?id=2730\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n24\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>Falstone
+      Falcon</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nBS / 4.9mi
+      / 750' [8km / 213m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/FalstoneFalcon2.html\">route</a>\r\n|
+      <a href=\"http://www.falstoneshow.com/\" target=\"_blank\">Falstone Show </a>|
+      <a href=\"http://fellrunner.org.uk/races.php?id=2479\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n24\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>Cheviots
+      Challenge</strong>\r\n\r\nwalk / run event (non - competitive ... )\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nLong (approx) 24 miles [38km]\r\n<br />\r\nShort (approx)
+      18 miles [29km]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a href=\"http://www.cheviotschallenge.org.uk/\"
+      target=\"_blank\">Cheviots Challenge website</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n26\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>Glendale
+      Show Fell Race</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nabout
+      4 miles. More details nearer the time.\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.glendaleshow.com/\" target=\"_blank\">Glendale Show</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n31\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>Bellingham
+      Show</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nBS / 4mi / 600'
+      [6km / 180m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/BellinghamShow_2.html\">route</a>\r\n|
+      <a href=\"http://fellrunner.org.uk/races.php?id=2615\" target=\"_blank\">FRA
+      </a>| <a href=\"http://bellinghamshow.blogspot.co.uk/\" target=\"_blank\">Bellingham
+      Show</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\nSept
+      21\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>Simonside (Thropton
+      Show) </strong>\r\n<em>NEHRA </em>\r\n<em>NFR</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nBM / 6.25mi / 1200' [10km / 370m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n| <a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/ThroptonSimonside_2.html\">route</a>
+      |\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NECAA_NEHRA_%20Championship_2013.pdf\"
+      target=\"_blank\">\r\nNEHRA\r\n</a>\r\n| <a href=\"http://fellrunner.org.uk/races.php?id=2183\"
+      target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\nOct
+      6\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nIan Hodgson Mountain Relay\r\n</p>\r\n</td>\r\n<td>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://fellrunner.org.uk/races.php?id=2729\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n12\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nLangdale
+      Horseshoe <em>NFR</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nAL
+      / 13mi / 4757' [21km/ 1450m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n| <a href=\"http://www.amblesideac.org.uk/\" target=\"_blank\">Ambleside
+      AC</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2482\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n20\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nUKA
+      British Relays\r\n</p>\r\n</td>\r\n<td>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://fellrunner.org.uk/races.php?id=2650\" target=\"_blank\">FRA </a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nNov 9\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nDunnerdale
+      <em>NFR</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nAS / 5mi / 1804'
+      [8km / 550m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n| <a href=\"http://www.bcrunners.org.uk/\" target=\"_blank\">Black
+      Combe</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2320\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n10\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nClay
+      Bank West <em>NEHRA</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nAS
+      / 4.2mi / 1201' [6km / 366m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NECAA_NEHRA_%20Championship_2013.pdf\"
+      target=\"_blank\">\r\nNEHRA\r\n</a>\r\n| <a href=\"http://www.eskvalleyfellclub.org/\"
+      target=\"_blank\">EVFC</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2253\"
+      target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\nDec
+      1\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>Angus Tait Memorial
+      Hexhamshire Hobble</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nCM
+      / 10.5mi / 1220' [17km / 370m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.allenvalleystriders.co.uk/id9.html\" target=\"_blank\">Allen
+      Valley Striders</a>\r\n| <a href=\"http://fellrunner.org.uk/races.php?id=2266\"
+      target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\n8\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<strong>Simonside Cairns</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nBM / 11mi / 1770' [17.7km / 540m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/SimonsideCairns_2.html\">route</a>\r\n|
+      <a href=\"http://fellrunner.org.uk/races.php?id=2290\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n</td>\r\n<td>\r\n</td>\r\n<td>\r\n</td>\r\n<td>\r\n</td>\r\n</tr>\r\n</tbody>\r\n\r\n</table>"
     - '2013-02-22 08:53:37.723873'
-    - '2013-02-22 09:02:52.050056'
-  - - 43
-    - 43
-    - en
-    - ! "<h2>Blaydon Race</h2>\r\n<h2><img class=\"image-align-left\" rel=\"110x110\"
-      alt=\"Blaydon Race\" title=\"Blaydon Race\" src=\"http://localhost:3000/system/images/W1siZiIsIjIwMTMvMDIvMjIvMDhfNDhfNDVfOTY5X2JsYXlkb25fcmFjZS5qcGciXSxbInAiLCJ0aHVtYiIsIjExMHgxMTA%2BIl1d/blaydon_race.jpg\"
-      height=\"109.76666\" width=\"109.76666\" /></h2>\r\n<p>The Blaydon Race862 Blaydon
-      Races Song is the National Anthem of Tyneside. The words of the song are used
-      as a basis for everything in the race where possible. For example the event
-      takes place every \"Ninth of June\" in accord with the song's first line:- \"Aa
-      went to Blaydon Races t'was on the Ninth of June\"</p>"
-    - '2013-02-22 09:02:52.052851'
-    - '2013-02-22 09:02:52.054264'
+    - '2013-03-14 19:54:52.982261'
   - - 46
     - 46
     - en
@@ -507,6 +516,26 @@ refinery_page_part_translations:
       Taylor</td>\r\n<td>Mens</td>\r\n\r\n\r\n<td>20:00</td>\r\n\r\n<td>7</td>\r\n\r\n</tr>\r\n</tbody>\r\n</table>"
     - '2013-02-22 19:18:21.587394'
     - '2013-02-22 19:42:06.850504'
+  - - 53
+    - 53
+    - en
+    - ''
+    - '2013-03-14 19:41:03.131799'
+    - '2013-03-14 20:39:16.172276'
+  - - 55
+    - 55
+    - en
+    - ! "<h1>HFHR</h1>\r\n<p><img class=\"image-align-left\" rel=\"225x255\" alt=\"Img
+      0227\" title=\"Img 0227\" src=\"/system/images/W1siZiIsIjIwMTMvMDMvMTQvMjBfNDZfMTRfNDExX0lNR18wMjI3LkpQRyJdLFsicCIsInRodW1iIiwiMjI1eDI1NT4iXV0/IMG_0227.JPG\"
+      height=\"255.5\" width=\"191.5\" /></p>\r\n<p>We are a group of ‘urban’ based
+      fell runners who love going out into the fells. We want to help people to foster
+      their love of the fells by joining us for weekend (and early summer evening)
+      training sessions in the hills. Whether you’re an experienced fell runner, a
+      road runner who would like a ‘taste’ of the hills or a complete newcomer who
+      loves being out in the hills but would enjoy the sport in the company of others,
+      why not come along and joi</p>"
+    - '2013-03-14 20:49:46.744827'
+    - '2013-03-14 20:55:22.886385'
 
 ---
 refinery_page_parts:
@@ -527,46 +556,20 @@ refinery_page_parts:
     - 0
     - '2013-02-14 17:18:07.502846'
     - '2013-02-14 17:18:07.502846'
-  - - 4
-    - 3
-    - Body
-    - ! "<p>This is just a standard text page example. Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit. Proin metus dolor, hendrerit sit amet, aliquet
-      nec, posuere sed, purus. Nullam et velit iaculis odio sagittis placerat. Duis
-      metus tellus, pellentesque ut, luctus id, egestas a, lorem. Praesent vitae mauris.
-      Aliquam sed nulla. Sed id nunc vitae leo suscipit viverra. Proin at leo ut lacus
-      consequat rhoncus. In hac habitasse platea dictumst. Nunc quis tortor sed libero
-      hendrerit dapibus.\r\n\r\nInteger interdum purus id erat. Duis nec velit vitae
-      dolor mattis euismod. Class aptent taciti sociosqu ad litora torquent per conubia
-      nostra, per inceptos himenaeos. Suspendisse pellentesque dignissim lacus. Nulla
-      semper euismod arcu. Suspendisse egestas, erat a consectetur dapibus, felis
-      orci cursus eros, et sollicitudin purus urna et metus. Integer eget est sed
-      nunc euismod vestibulum. Integer nulla dui, tristique in, euismod et, interdum
-      imperdiet, enim. Mauris at lectus. Sed egestas tortor nec mi.</p>"
-    - 0
-    - '2013-02-14 17:18:07.986925'
-    - '2013-02-14 17:21:09.626820'
-  - - 5
-    - 3
-    - Side Body
-    - <p>sdsadsadasdasdsadsa</p>
-    - 1
-    - '2013-02-14 17:18:08.144419'
-    - '2013-02-14 17:21:09.630427'
   - - 6
     - 4
     - Body
-    - 
-    - 
+    - ''
+    - 0
     - '2013-02-14 17:18:09.441098'
-    - '2013-02-14 17:18:09.441098'
+    - '2013-03-14 19:43:35.791818'
   - - 7
     - 4
     - Side Body
-    - 
-    - 
+    - ''
+    - 1
     - '2013-02-14 17:18:09.597058'
-    - '2013-02-14 17:18:09.597058'
+    - '2013-03-14 19:43:35.794271'
   - - 8
     - 5
     - Body
@@ -647,59 +650,47 @@ refinery_page_parts:
   - - 32
     - 1
     - News Title
-    - <p>HFHR News</p>
+    - <h2>HFHR News</h2>
     - 0
     - '2013-02-15 18:29:55.012473'
-    - '2013-02-16 17:20:11.421510'
-  - - 33
-    - 1
-    - Section 1
-    - ! "<h1>HFHR</h1>\r\n<div>High Fell Hill Runners was started by HIllary Shaw...
-      We are a group of like minded urban based fell runners who appreciate the outdoors
-      and love training on the fells. We usually go out on a Saturday afternoon, often
-      in the Cheviots. Come and join us! All welcome. Foonar</div>"
-    - 1
-    - '2013-02-16 10:56:00.794239'
-    - '2013-02-16 17:20:11.432101'
+    - '2013-03-15 08:32:20.482300'
   - - 34
     - 1
     - Section 2
-    - ! "<h1>Training</h1>\r\n<p><img class=\"image-align-left\" rel=\"110x110\" alt=\"Comes\"
-      title=\"Comes\" src=\"/system/images/W1siZiIsIjIwMTMvMDIvMTUvMTlfNDFfMjZfNTlfY29tZXMuanBnIl0sWyJwIiwidGh1bWIiLCIxMTB4MTEwPiJdXQ/comes.jpg\"
-      height=\"96.33333400000001\" width=\"110.33333400000001\" />\r\n\r\n</p>\r\n<p>We
-      are a group of like minded urban based fell runners who appreciate the outdoors
-      and love training on the fells. We usually go out on a Saturday afternoon, often
-      in the Cheviots. Come and join us! All welcome. We are a group of like minded
-      urban based fell runners who appreciate the outdoors and We are a group of like
-      minded urban based fell runners who appreciate the</p>\r\n"
+    - ! "<h1>Training</h1>\r\n<p><img class=\"image-align-right\" rel=\"225x255\"
+      alt=\"Img 0112\" title=\"Img 0112\" src=\"/system/images/W1siZiIsIjIwMTMvMDMvMTQvMjBfNDlfMjVfMF9JTUdfMDExMi5KUEciXSxbInAiLCJ0aHVtYiIsIjIyNXgyNTU%2BIl1d/IMG_0112.JPG\"
+      height=\"255.5\" width=\"191.5\" />We usually train every other Saturday afternoon
+      often going up to the Cheviots, down to North Yorkshire, along the Roman Wallor
+      over to the lakes (which is more of a full day than an afternoon session!).
+      A few of us also go out on the ‘in between’ Saturdays to run local trail routes
+      … ideal for someone coming back from injury or for absolute newcomers who want
+      to build up a bit of ‘off road’ confidence.</p>\r\n<p><br />We usually leave
+      Gateshead at 11.30a.m., meeting outside the Little Theatre which is next to
+      Saltwell Park. Car and fuel share isn’t only available … it’s encouraged! Come
+      along and join the fun. It’s a great way to meet new people while enjoying the
+      beauty of the hills! For dates and routes click on the training link above.
+      (I’ve attached this separately)</p>"
     - 2
     - '2013-02-16 11:02:01.924486'
-    - '2013-02-16 17:20:11.443278'
+    - '2013-03-15 08:32:20.495196'
   - - 35
     - 1
     - Section 3
-    - ! "<h1>Training</h1>\r\n<p><img class=\"image-align-right\" rel=\"110x110\"
-      alt=\"Hillary\" title=\"Hillary\" src=\"http://localhost:3000/system/images/W1siZiIsIjIwMTMvMDIvMTQvMTdfMjdfNDlfNjIzX2hpbGxhcnkuanBnIl0sWyJwIiwidGh1bWIiLCIxMTB4MTEwPiJdXQ/hillary.jpg\"
-      height=\"110.33333400000001\" width=\"110.33333400000001\" />We are a group
-      of like minded urban based fell runners who appreciate the outdoors and love
-      training on the fells. We usually goout on a Saturday afternoon, often in the
-      Cheviots. Come and join us! All welcome. We are a group of like minded urban
-      based fell runners who appreciate the outdoors and We are a group of like minded
-      urban based fell runners who appreciate the</p>"
+    - ''
     - 3
     - '2013-02-16 11:55:46.168425'
-    - '2013-02-16 17:20:11.454236'
+    - '2013-03-15 08:32:20.497649'
   - - 36
     - 1
     - right 1
-    - ! "<h2>Picture of the week</h2>\r\n<p><img rel=\"450x450\" alt=\"Index\" title=\"Index\"
-      src=\"/system/images/W1siZiIsIjIwMTMvMDIvMTUvMThfMjRfNTZfOTQyX2luZGV4LmpwZyJdLFsicCIsInRodW1iIiwiNDUweDQ1MD4iXV0/index.jpg\"
-      height=\"194.33333399999998\" width=\"259.33333400000004\" />\r\n</p>\r\n<p><strong><span
-      class=\"font-size-small\">Some random castle&#160;</span>\r\n</strong>\r\n</p>\r\n<p><span
-      class=\"font-size-small text-align-center\">Picture taken by Jimmy shaw</span>\r\n</p>"
+    - ! "<h2>Picture of the Month</h2>\r\n<p><img rel=\"225x255\" alt=\"535502 264358123696098
+      2021785237 N\" title=\"535502 264358123696098 2021785237 N\" src=\"/system/images/W1siZiIsIjIwMTMvMDMvMTQvMTlfMzZfMzFfMjI3XzUzNTUwMl8yNjQzNTgxMjM2OTYwOThfMjAyMTc4NTIzN19uLmpwZyJdLFsicCIsInRodW1iIiwiMjI1eDI1NT4iXV0/535502_264358123696098_2021785237_n.jpg\"
+      height=\"169.5\" width=\"225.5\" />\r\n</p>\r\n<p><strong><span class=\"font-size-small\">A
+      view of Buttermere&#160;</span>\r\n</strong>\r\n</p>\r\n<p><span class=\"font-size-small
+      text-align-center\">Picture taken by Jimmy shaw</span>\r\n</p>"
     - 4
     - '2013-02-16 11:58:06.543943'
-    - '2013-02-16 17:20:11.464648'
+    - '2013-03-15 08:32:20.499687'
   - - 37
     - 11
     - Body
@@ -717,51 +708,228 @@ refinery_page_parts:
   - - 39
     - 1
     - Right 2
-    - <p>&lt;iframe src="https://www.google.com/calendar/embed?height=600&amp;amp;wkst=1&amp;amp;bgcolor=%23FFFFFF&amp;amp;src=1u5ffhdc7c1rkqgg91c5pp02f4%40group.calendar.google.com&amp;amp;color=%23856508&amp;amp;ctz=Europe%2FLondon"
-      style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</p>
+    - ! "<h2>Next training session</h2>\r\n<h3>Saturday 16th March... \r\n</h3>\r\n<strong><span
+      class=\"font-size-small\">Cheviot, Hedgehope, Langlee Crags, Brands Corner,
+      Carey Burn Bridge. <br />&#160;Leaving Gateshead at 9.30 am.&#160; \r\n</span>\r\n</strong>\r\n<p><span
+      class=\"font-size-small\">Car/fuel share available.</span>\r\n</p>"
     - 5
     - '2013-02-16 12:15:34.668257'
-    - '2013-02-16 17:20:11.476945'
+    - '2013-03-15 08:32:20.501800'
   - - 42
     - 12
     - Blaydon Race
-    - ! "<h2>Blaydon Race</h2>\r\n<p>The 1<img class=\"image-align-left\" rel=\"110x110\"
-      alt=\"Blaydon Race\" title=\"Blaydon Race\" src=\"http://localhost:3000/system/images/W1siZiIsIjIwMTMvMDIvMjIvMDhfNDhfNDVfOTY5X2JsYXlkb25fcmFjZS5qcGciXSxbInAiLCJ0aHVtYiIsIjExMHgxMTA%2BIl1d/blaydon_race.jpg\"
-      height=\"109.76666\" width=\"109.76666\" />862 Blaydon Races Song is the National
-      Anthem of Tyneside.  The words of the song are used as a basis for everything
-      in the race where possible. For example the event takes place every \"Ninth
-      of June\" in accord with the song's first line:- \"Aa went to Blaydon Races
-      t'was on the Ninth of June\"<br />                       </p>"
+    - ! "\r\n<table cellpadding=\"3\" cellspacing=\"0\" width=\"650\">\r\n\r\n<tbody>\r\n
+      \ <tr>\r\n  <td>Date\r\n  </td>\r\n<td>Location</td>\r\n  <td>Distance</td>\r\n
+      \ <td>Route</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\nJan 1\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<strong>Hillforts &amp; Headaches</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nAS / 3mi / 1020' [5km / 310m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/races/notices/2012/Simonside_Cairns_and_Hill_Forts.pdf\"
+      target=\"_blank\">\r\nflyer (with Cairns race)\r\n</a>\r\n|<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/HillFortsHeadaches_2.html\">
+      route</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2291\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nFeb 17\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nCommondale
+      Clart <em>NEHRA</em>\r\n</p>\r\n</td>\r\n<td>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NECAA_NEHRA_%20Championship_2013.pdf\"
+      target=\"_blank\">\r\nNEHRA\r\n</a>\r\n| <a href=\"http://www.eskvalleyfellclub.org/\"
+      target=\"_blank\">EVFC</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\nMar
+      3\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nGlaisdale Rigg NFR\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nBM 8.5mi / 1840' [14km / 560m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n| <a href=\"http://www.eskvalleyfellclub.org/\" target=\"_blank\">EVFC</a>
+      | <a href=\"http://fellrunner.org.uk/races.php?id=2219\" target=\"_blank\">
+      FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\n10\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<strong>Brough Law </strong>\r\n<em>NEHRA</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nAS / 5mi / 1250' [8km / 380m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/BroughLaw_2.html\">route</a>\r\n|
+      <a href=\"http://fellrunner.org.uk/races.php?id=2386\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n30\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nCausey
+      Pike <em>NFR</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nAS / 4.5mi
+      / 1780' [7.2km / 543m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n|<a href=\"http://www.keswick-ac.org.uk/\" target=\"_blank\">
+      Keswick AC</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2325\" target=\"_blank\">
+      FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\nApr
+      6\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>\r\nAllendale Challenge\r\n<br
+      />\r\n</strong>\r\nwalk / run event\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nBL
+      / 25mi / 3400' [40km / 1040m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.streetmap.co.uk/streetmap.dll?G2M?X=383749&amp;Y=555901&amp;A=Y&amp;Z=4\"
+      target=\"_blank\">start location</a>\r\n| <a href=\"http://www.northoftynesearchandrescue.org.uk/pages/allendale.html\"
+      target=\"_blank\">NOTSRT</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n20\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nAnniversary
+      Waltz <em>NFR</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nAM / 11.5mi
+      / 3600' [18.5km / 1097m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n|<a href=\"http://fellrunner.org.uk/races.php?id=2706\" target=\"_blank\">
+      </a>\r\n<a href=\"http://www.anniversarywaltz.co.uk/\" target=\"_blank\">Anniversary
+      Waltz</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2706\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n21\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nGuisborough
+      Moors <em>NEHRA</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nBL /
+      12.4mi / 2790' [20km / 850m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NECAA_NEHRA_%20Championship_2013.pdf\"
+      target=\"_blank\">\r\nNEHRA\r\n</a>\r\n| <a href=\"http://www.eskvalleyfellclub.org/\"
+      target=\"_blank\">EVFC</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\nMay
+      5\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nFox &amp; Hounds Chase <em>NFR</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nBM / 9mi / 1500' [14.5mi / 457m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n| <a href=\"http://www.eskvalleyfellclub.org/\" target=\"_blank\">EVFC</a>
+      | <a href=\"http://fellrunner.org.uk/races.php?id=2230\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nJun 1\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nDuddon
+      <em>NFR</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nAL / 18m / 6000'
+      [29km / 1830m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n| <a href=\"http://duddonvalley.fellrace.org.uk/\" target=\"_blank\">Duddon
+      Valley</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2191\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n2\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nYetholm
+      Hill Race\r\n<br />\r\n***British Championship\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nAM / 8mi / 2500' [13km / 760m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n* <a href=\"https://www.sientries.co.uk/event.php?elid=Y&amp;event_id=975\"
+      target=\"_blank\">online entry</a> |<a href=\"http://www.streetmap.co.uk/streetmap.dll?G2M?X=384045&amp;Y=627610&amp;A=Y&amp;Z=4\"
+      target=\"_blank\">start location</a> |<a href=\"http://www.norhamrc.co.uk/yethr.html\"
+      target=\"_blank\">Norham RC</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2496\"
+      target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\n8\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<strong>Alwinton Fell Race</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nBL / 14mi / 2650' [23km / 808m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/races/notices/2012/Alwinton_FR_Course_Details_and_Entry_Form_2012.pdf\"
+      target=\"_blank\">\r\ndetails\r\n</a>\r\n|<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/AlwintonLong_2.html\">
+      route </a>| <a href=\"http://fellrunner.org.uk/races.php?id=2569\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n15\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>Roman
+      Wall Show</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nBS / 4.4mi
+      / 620' [7km / 190m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a href=\"http://fellrunner.org.uk/races.php?id=2347\"
+      target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\n19\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<strong>Humbleton Fell Race</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nBS / 5.3mi / 787' [8.5km / 240m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n|<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/Humbleton_Fell_Race_map.pdf\"
+      target=\"_blank\"> map</a> (pdf) |<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/HumbletonFell.html\">route</a>
+      | <a href=\"http://www.northumberlandfellrunners.co.uk/html/races/notices/2012/Humbleton_Fell_Race_poster.pdf\"
+      target=\"_blank\">poster</a>\r\n|<a href=\"http://fellrunner.org.uk/races.php?id=2380\"
+      target=\"_blank\"> FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\n22\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nDurham Dales Challenge\r\n<br />\r\nwalk / run event\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n16 miles or 30 miles\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.ldwa.org.uk/Northumbria/E/11128/24th-durham-dales-challenge.html\"
+      target=\"_blank\">LDWA Northumbria</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n23\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>Windy
+      Gyle</strong>\r\n<em> NEHRA</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nBM
+      / 9mi / 1800' [14km / 550m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.northumberlandfellrunners.co.uk/html/races/notices/2012/WGFR_Pub_Poster_2.0_2012.pdf\"
+      target=\"_blank\">poster </a>\r\n|\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/races/notices/2012/WGFR_Course_Details_and_Entry_Form_2012.pdf\"
+      target=\"_blank\">\r\ndetails\r\n</a>\r\n|\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NECAA_NEHRA_%20Championship_2013.pdf\"
+      target=\"_blank\">\r\nNEHRA\r\n</a>\r\n|<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/WindyGyle_2.html\">
+      route</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2574\" target=\"_blank\">
+      FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\n30\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nCronkley Fell Race<em> NEHRA</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nBM / 10.5mi / 1755' [17km / 535m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.durhamfellrunners.org.uk/\" target=\"_blank\">DFR
+      website</a>\r\n|\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NECAA_NEHRA_%20Championship_2013.pdf\"
+      target=\"_blank\">\r\nNEHRA\r\n</a>\r\n|<a href=\"http://fellrunner.org.uk/races.php?id=2472\"
+      target=\"_blank\"> FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\nJul
+      2\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nSaltwell Harriers Fell Race\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nBS / 5.5mi / 1000' [9km / 305m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/SaltwellHarriersFell_2.html\">route
+      </a>\r\n|<a href=\"http://fellrunner.org.uk/races.php?id=2372\" target=\"_blank\">
+      FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\n6\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<strong>Chevy Chase</strong>\r\n\r\nwalk / run event\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nBL / 20mi / 4000' [32km / 1220m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.streetmap.co.uk/streetmap.dll?G2M?X=399120&amp;Y=627770&amp;A=Y&amp;Z=4\"
+      target=\"_blank\">start location</a>\r\n| <a href=\"http://www.woolerrunningclub.co.uk/Chevy%20Chase.html\"
+      target=\"_blank\">Wooler RC</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2435\"
+      target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\n11\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<strong>Beacon Hill </strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nAS / 5.75mi / 1500' [9km / 460m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/BeaconHill_2.html\">route</a>\r\n|<a
+      href=\"http://fellrunner.org.uk/races.php?id=2292\" target=\"_blank\"> FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n21\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nConiston
+      Country Fair <em>NFR</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nAS
+      / 6mi / 2402' [10km / 730m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n| <a href=\"http://fellrunner.org.uk/races.php?id=2495\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nAug 11\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>Forest
+      Burn</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nBS / 3.2mi /
+      450' [6km / 150m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/ForestBurn_2.html\">route</a>\r\n|<a
+      href=\"http://fellrunner.org.uk/races.php?id=2387\" target=\"_blank\"> FRA</a>\r\n<a
+      href=\"http://www.fellrunner.org.uk/races.php?id=1787\" target=\"_blank\"> </a>|
+      <a href=\"http://www.simonsidefair.co.uk/index.html\" target=\"_blank\"> Simonside
+      Fair</a> |\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\n18\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nSedbergh Hills <em>NFR</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nAL / 14m / 6004' [23km / 1830m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n| <a href=\"http://fellrunner.org.uk/races.php?id=2730\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n24\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>Falstone
+      Falcon</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nBS / 4.9mi
+      / 750' [8km / 213m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/FalstoneFalcon2.html\">route</a>\r\n|
+      <a href=\"http://www.falstoneshow.com/\" target=\"_blank\">Falstone Show </a>|
+      <a href=\"http://fellrunner.org.uk/races.php?id=2479\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n24\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>Cheviots
+      Challenge</strong>\r\n\r\nwalk / run event (non - competitive ... )\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nLong (approx) 24 miles [38km]\r\n<br />\r\nShort (approx)
+      18 miles [29km]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a href=\"http://www.cheviotschallenge.org.uk/\"
+      target=\"_blank\">Cheviots Challenge website</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n26\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>Glendale
+      Show Fell Race</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nabout
+      4 miles. More details nearer the time.\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.glendaleshow.com/\" target=\"_blank\">Glendale Show</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n31\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>Bellingham
+      Show</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nBS / 4mi / 600'
+      [6km / 180m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/BellinghamShow_2.html\">route</a>\r\n|
+      <a href=\"http://fellrunner.org.uk/races.php?id=2615\" target=\"_blank\">FRA
+      </a>| <a href=\"http://bellinghamshow.blogspot.co.uk/\" target=\"_blank\">Bellingham
+      Show</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\nSept
+      21\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>Simonside (Thropton
+      Show) </strong>\r\n<em>NEHRA </em>\r\n<em>NFR</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nBM / 6.25mi / 1200' [10km / 370m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n| <a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/ThroptonSimonside_2.html\">route</a>
+      |\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NECAA_NEHRA_%20Championship_2013.pdf\"
+      target=\"_blank\">\r\nNEHRA\r\n</a>\r\n| <a href=\"http://fellrunner.org.uk/races.php?id=2183\"
+      target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\nOct
+      6\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nIan Hodgson Mountain Relay\r\n</p>\r\n</td>\r\n<td>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://fellrunner.org.uk/races.php?id=2729\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n12\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nLangdale
+      Horseshoe <em>NFR</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nAL
+      / 13mi / 4757' [21km/ 1450m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n| <a href=\"http://www.amblesideac.org.uk/\" target=\"_blank\">Ambleside
+      AC</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2482\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n20\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nUKA
+      British Relays\r\n</p>\r\n</td>\r\n<td>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://fellrunner.org.uk/races.php?id=2650\" target=\"_blank\">FRA </a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nNov 9\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nDunnerdale
+      <em>NFR</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nAS / 5mi / 1804'
+      [8km / 550m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NFR2013ChampRaces.html\">NFR
+      Champs</a>\r\n| <a href=\"http://www.bcrunners.org.uk/\" target=\"_blank\">Black
+      Combe</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2320\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n10\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nClay
+      Bank West <em>NEHRA</em>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nAS
+      / 4.2mi / 1201' [6km / 366m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.northumberlandfellrunners.co.uk/html/championship/2013/NECAA_NEHRA_%20Championship_2013.pdf\"
+      target=\"_blank\">\r\nNEHRA\r\n</a>\r\n| <a href=\"http://www.eskvalleyfellclub.org/\"
+      target=\"_blank\">EVFC</a> | <a href=\"http://fellrunner.org.uk/races.php?id=2253\"
+      target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\nDec
+      1\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<strong>Angus Tait Memorial
+      Hexhamshire Hobble</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\nCM
+      / 10.5mi / 1220' [17km / 370m]\r\n</p>\r\n</td>\r\n<td>\r\n<p lang=\"en-GB\">\r\n<a
+      href=\"http://www.allenvalleystriders.co.uk/id9.html\" target=\"_blank\">Allen
+      Valley Striders</a>\r\n| <a href=\"http://fellrunner.org.uk/races.php?id=2266\"
+      target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p lang=\"en-GB\">\r\n8\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<strong>Simonside Cairns</strong>\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\nBM / 11mi / 1770' [17.7km / 540m]\r\n</p>\r\n</td>\r\n<td>\r\n<p
+      lang=\"en-GB\">\r\n<a href=\"http://www.northumberlandfellrunners.co.uk/html/maps/SimonsideCairns_2.html\">route</a>\r\n|
+      <a href=\"http://fellrunner.org.uk/races.php?id=2290\" target=\"_blank\">FRA</a>\r\n</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n</td>\r\n<td>\r\n</td>\r\n<td>\r\n</td>\r\n<td>\r\n</td>\r\n</tr>\r\n</tbody>\r\n\r\n</table>"
     - 0
     - '2013-02-22 08:53:37.723076'
-    - '2013-02-22 09:03:45.369279'
-  - - 43
-    - 12
-    - Blaydon Race2
-    - ! "<h2>Blaydon Race</h2>\r\n<h2><img class=\"image-align-left\" rel=\"110x110\"
-      alt=\"Blaydon Race\" title=\"Blaydon Race\" src=\"http://localhost:3000/system/images/W1siZiIsIjIwMTMvMDIvMjIvMDhfNDhfNDVfOTY5X2JsYXlkb25fcmFjZS5qcGciXSxbInAiLCJ0aHVtYiIsIjExMHgxMTA%2BIl1d/blaydon_race.jpg\"
-      height=\"109.76666\" width=\"109.76666\" /></h2>\r\n<p>The Blaydon Race862 Blaydon
-      Races Song is the National Anthem of Tyneside. The words of the song are used
-      as a basis for everything in the race where possible. For example the event
-      takes place every \"Ninth of June\" in accord with the song's first line:- \"Aa
-      went to Blaydon Races t'was on the Ninth of June\"</p>"
-    - 1
-    - '2013-02-22 09:02:52.051971'
-    - '2013-02-22 09:03:45.372134'
+    - '2013-03-14 19:54:52.980157'
   - - 46
     - 14
     - Body
     - ''
     - 0
     - '2013-02-22 10:29:42.479572'
-    - '2013-02-22 10:29:42.479572'
+    - '2013-03-14 19:40:40.041987'
   - - 47
     - 14
     - Side Body
     - ''
     - 1
     - '2013-02-22 10:29:42.500844'
-    - '2013-02-22 10:29:42.500844'
+    - '2013-03-14 19:40:40.044711'
   - - 50
     - 16
     - Body
@@ -789,7 +957,29 @@ refinery_page_parts:
       Taylor</td>\r\n<td>Mens</td>\r\n\r\n\r\n<td>20:00</td>\r\n\r\n<td>7</td>\r\n\r\n</tr>\r\n</tbody>\r\n</table>"
     - 0
     - '2013-02-22 19:18:21.586343'
-    - '2013-02-22 19:42:06.848901'
+    - '2013-03-14 19:56:11.318801'
+  - - 53
+    - 17
+    - Body
+    - ''
+    - 0
+    - '2013-03-14 19:41:03.130789'
+    - '2013-03-14 20:39:16.167790'
+  - - 55
+    - 1
+    - Section 1
+    - ! "<h1>HFHR</h1>\r\n<p><img class=\"image-align-left\" rel=\"225x255\" alt=\"Img
+      0227\" title=\"Img 0227\" src=\"/system/images/W1siZiIsIjIwMTMvMDMvMTQvMjBfNDZfMTRfNDExX0lNR18wMjI3LkpQRyJdLFsicCIsInRodW1iIiwiMjI1eDI1NT4iXV0/IMG_0227.JPG\"
+      height=\"255.5\" width=\"191.5\" /></p>\r\n<p>We are a group of ‘urban’ based
+      fell runners who love going out into the fells. We want to help people to foster
+      their love of the fells by joining us for weekend (and early summer evening)
+      training sessions in the hills. Whether you’re an experienced fell runner, a
+      road runner who would like a ‘taste’ of the hills or a complete newcomer who
+      loves being out in the hills but would enjoy the sport in the company of others,
+      why not come along and joi</p>"
+    - 1
+    - '2013-03-14 20:49:46.744020'
+    - '2013-03-15 08:32:20.491302'
 
 ---
 refinery_page_translations:
@@ -822,24 +1012,15 @@ refinery_page_translations:
     - page-not-found
     - '2013-02-14 17:18:07.198673'
     - '2013-02-14 17:18:07.204706'
-  - - 3
-    - 3
-    - en
-    - About
-    - 
-    - ''
-    - about
-    - '2013-02-14 17:18:07.746761'
-    - '2013-02-14 17:21:09.623721'
   - - 4
     - 4
     - en
-    - Blog
+    - Reports
     - 
-    - 
-    - blog
+    - Reports
+    - reports
     - '2013-02-14 17:18:09.206839'
-    - '2013-02-14 17:18:09.213255'
+    - '2013-03-14 19:43:35.785428'
   - - 5
     - 5
     - en
@@ -906,21 +1087,21 @@ refinery_page_translations:
   - - 12
     - 12
     - en
-    - Local Fell Races
+    - Fell Races
     - 
     - Fell Races
     - fell-races
     - '2013-02-22 08:47:02.813167'
-    - '2013-02-22 09:03:45.366927'
+    - '2013-03-14 19:41:33.605831'
   - - 14
     - 14
     - en
     - Photos
     - 
-    - ''
-    - photos
+    - Gallery
+    - gallery
     - '2013-02-22 10:29:42.429069'
-    - '2013-02-22 10:29:42.463167'
+    - '2013-03-14 19:40:40.035813'
   - - 15
     - 15
     - en
@@ -939,6 +1120,15 @@ refinery_page_translations:
     - calendar
     - '2013-02-22 18:39:03.443595'
     - '2013-02-22 18:39:03.451783'
+  - - 17
+    - 17
+    - en
+    - Nutrition
+    - 
+    - ''
+    - nutrition
+    - '2013-03-14 19:41:03.121583'
+    - '2013-03-14 19:41:03.127346'
 
 ---
 refinery_pages:
@@ -974,10 +1164,10 @@ refinery_pages:
     - 1
     - 4
     - 0
-    - 
+    - home
     - 
     - '2013-02-14 17:18:06.515256'
-    - '2013-02-16 17:20:11.405647'
+    - '2013-03-15 08:32:20.411812'
   - - 2
     - 1
     - 
@@ -995,27 +1185,10 @@ refinery_pages:
     - 
     - '2013-02-14 17:18:07.201420'
     - '2013-02-16 12:07:25.064522'
-  - - 3
-    - 
-    - 
-    - about
-    - true
-    - ''
-    - 
-    - true
-    - false
-    - false
-    - 27
-    - 28
-    - 0
-    - 
-    - 
-    - '2013-02-14 17:18:07.749623'
-    - '2013-02-16 12:07:25.349475'
   - - 4
     - 
     - 
-    - blog
+    - reports
     - true
     - /blog
     - ^/blogs?(/|/.+?|)$
@@ -1025,10 +1198,10 @@ refinery_pages:
     - 23
     - 24
     - 0
-    - 
+    - photos
     - 
     - '2013-02-14 17:18:09.210277'
-    - '2013-02-14 17:18:09.210277'
+    - '2013-03-14 19:43:35.777864'
   - - 5
     - 
     - 
@@ -1161,14 +1334,14 @@ refinery_pages:
     - 21
     - 22
     - 0
-    - 
+    - standard
     - 
     - '2013-02-22 08:47:02.816091'
-    - '2013-02-22 09:03:45.364250'
+    - '2013-03-14 19:54:52.976486'
   - - 14
     - 
     - 
-    - photos
+    - gallery
     - true
     - ''
     - 
@@ -1181,12 +1354,12 @@ refinery_pages:
     - photos
     - 
     - '2013-02-22 10:29:42.447576'
-    - '2013-02-22 10:29:42.447576'
+    - '2013-03-14 19:40:40.028329'
   - - 15
     - 
     - 
     - results
-    - true
+    - false
     - ''
     - 
     - true
@@ -1198,7 +1371,7 @@ refinery_pages:
     - standard
     - 
     - '2013-02-22 18:33:37.223908'
-    - '2013-02-22 19:42:06.842368'
+    - '2013-03-14 19:56:11.315055'
   - - 16
     - 
     - 
@@ -1209,13 +1382,30 @@ refinery_pages:
     - true
     - false
     - false
-    - 29
-    - 30
+    - 27
+    - 28
     - 0
     - calendar
     - 
     - '2013-02-22 18:39:03.447706'
     - '2013-02-22 18:41:42.514553'
+  - - 17
+    - 
+    - 
+    - nutrition
+    - true
+    - ''
+    - 
+    - true
+    - false
+    - false
+    - 29
+    - 30
+    - 0
+    - standard
+    - 
+    - '2013-03-14 19:41:03.124555'
+    - '2013-03-14 20:39:16.153753'
 
 ---
 refinery_roles:
@@ -1238,6 +1428,53 @@ refinery_roles_users:
     - 1
   - - 1
     - 2
+
+---
+refinery_settings:
+  columns:
+  - id
+  - name
+  - value
+  - destroyable
+  - scoping
+  - restricted
+  - form_value_type
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - comments_allowed
+    - ! '--- ''true''
+
+'
+    - true
+    - blog
+    - false
+    - text_area
+    - '2013-03-14 18:38:17.066942'
+    - '2013-03-14 18:38:17.066942'
+  - - 2
+    - comment_moderation
+    - ! '--- ''true''
+
+'
+    - true
+    - blog
+    - false
+    - text_area
+    - '2013-03-14 19:39:49.654163'
+    - '2013-03-14 19:39:49.654163'
+  - - 3
+    - teasers_enabled
+    - ! '--- ''true''
+
+'
+    - true
+    - blog
+    - false
+    - text_area
+    - '2013-03-14 19:39:49.870332'
+    - '2013-03-14 19:39:49.870332'
 
 ---
 refinery_user_plugins:
@@ -1346,16 +1583,16 @@ refinery_users:
     - admin
     - admin@admin.com
     - $2a$10$rlRP1QDfScvCf.zbZ/aZUO4Ig/Egz/4LyrHFRu8/Av89RoBaC1lK.
+    - '2013-03-14 18:14:43.834679'
     - '2013-02-22 18:10:44.040858'
-    - '2013-02-22 08:46:38.942016'
     - 127.0.0.1
     - 127.0.0.1
-    - 10
+    - 11
     - 
     - 
     - 
     - '2013-02-14 17:19:05.731983'
-    - '2013-02-22 18:10:44.044129'
+    - '2013-03-14 18:14:43.852962'
 
 ---
 seo_meta:
@@ -1385,22 +1622,14 @@ seo_meta:
     - 
     - '2013-02-14 17:18:07.200125'
     - '2013-02-14 17:18:07.200125'
-  - - 3
-    - 3
-    - Refinery::Page::Translation
-    - ''
-    - ''
-    - ''
-    - '2013-02-14 17:18:07.748344'
-    - '2013-02-14 17:21:09.464298'
   - - 4
     - 4
     - Refinery::Page::Translation
-    - 
-    - 
-    - 
+    - ''
+    - ''
+    - ''
     - '2013-02-14 17:18:09.208536'
-    - '2013-02-14 17:18:09.208536'
+    - '2013-03-14 19:40:10.950163'
   - - 5
     - 5
     - Refinery::Page::Translation
@@ -1449,14 +1678,6 @@ seo_meta:
     - ''
     - '2013-02-15 13:53:56.616859'
     - '2013-02-21 12:57:22.569965'
-  - - 11
-    - 1
-    - Refinery::Blog::Post
-    - ''
-    - ''
-    - ''
-    - '2013-02-15 20:51:15.394133'
-    - '2013-02-15 20:51:15.394133'
   - - 12
     - 11
     - Refinery::Page::Translation
@@ -1481,14 +1702,6 @@ seo_meta:
     - ''
     - '2013-02-22 10:29:42.439953'
     - '2013-02-22 10:29:42.439953'
-  - - 16
-    - 2
-    - Refinery::Blog::Post
-    - ''
-    - ''
-    - ''
-    - '2013-02-22 18:19:35.806217'
-    - '2013-02-22 18:19:35.806217'
   - - 17
     - 15
     - Refinery::Page::Translation
@@ -1505,3 +1718,11 @@ seo_meta:
     - ''
     - '2013-02-22 18:39:03.445549'
     - '2013-02-22 18:39:03.445549'
+  - - 19
+    - 17
+    - Refinery::Page::Translation
+    - ''
+    - ''
+    - ''
+    - '2013-03-14 19:41:03.122745'
+    - '2013-03-14 19:41:03.122745'

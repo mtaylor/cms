@@ -27,16 +27,17 @@ $(document).ready(function() {
 
 <div id="content">
 	<div id='home_right'>
-		<center>
-			<div id='right_2' class='section' >
+	 	<div id='right_2' class='section' >
+	 		<center>
 				<%= raw @page.content_for(:right_2) %>
-			</div>
-			<div id='right_1' class='section' >
+			</center>
+		</div>
+		<div id='right_1' class='section' >
+			<center>
 				<%= raw @page.content_for(:right_1) %>
-			</div>
-		</center>
-
-		<div id='recent_news'>
+			</center>
+		</div>
+		<div id='recent_news' class='section'>
 			<%= render :partial => '/refinery/news/items/recent_posts' %>
 		</div>
 	</div>

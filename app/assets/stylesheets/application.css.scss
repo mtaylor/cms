@@ -41,6 +41,30 @@ p img {
   display: table;
 }
 
+#home_right .section { 
+  border: 1px solid #DDDDDD;
+  box-shadow: 5px 5px 2px #888888;
+  border-radius: 5px;
+  max-width: 80%;
+  float: right;
+  margin-top: 20px;
+  background-color: #FDFDFD;
+}
+
+div.section img {
+  border-radius: 5px;
+  margin: 10px;
+  border: 2px solid #DDDDDD;
+}
+
+.section h1 {
+  width: 100%;
+  border-bottom: $primary-color solid 1px;
+}
+
+div.section img.image-align-left{
+  margin-right: 20px;
+}
 img.thumbnail_large {
   height: 60px;
   width: auto;
@@ -103,7 +127,7 @@ img.twitter {
 /** News Item **/
 
 #recent_news {
-  width: 300px;
+  width: 100%;
   float: right;
 }
 
@@ -117,6 +141,13 @@ img.twitter {
   width: 100%;
   min-height: 110px;
   margin-bottom: 20px;
+  float: right;
+}
+
+.news_item img {
+  margin-left: 5px !important;
+  border: 0px !important;
+  border-radius: 0px !important;
 }
 .news_item {
   font-size: 12px;
