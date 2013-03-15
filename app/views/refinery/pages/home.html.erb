@@ -2,26 +2,47 @@
 	<div id='notification_content'>
 		<span id='twitter'>
 		  <%= link_to image_tag('social/twitter.png', :class => 'twitter'), 'http://www.twitter.com' %>
-		  <span class='twitter_title'>Hilary: </h1>
-		  <span class='twitter_text'>'Congratulations to all those who took part in today;'s 5K.  It was great fun!'</span>
+		  <span class='twitter_title'>HighFellHR </h1>
+		  <span id='tweet' class='twitter_text' style="text-align:center"></span>
 		</span>
 	</div>
 </div>
+<script type="application/javascript" >
+$(document).ready(function() {
+  // Handler for .ready() called.
+  $.getJSON("https://api.twitter.com/1/statuses/user_timeline.json?screen_name=HighFellHR&count=5&callback=?",
+  function(data){
+  	item = data[0]
+    ct = item.text;
+    // include time tweeted - thanks to will
+    mytime = item.created_at;
+    var strtime = mytime.replace(/(\+\S+) (.*)/, '$2 $1')
+    var mydate = new Date(Date.parse(strtime)).toLocaleDateString();
+    $("#tweet").append(ct);
+    //$(".twitter_title").append(mydate)
+   });
+ });
+  // UPDATE 10-17-2012: change in Twitter API!
+</script>
 
 <div id="content">
 	<div id='home_right'>
 		<center>
+			<div id='right_2' class='section' >
+				<%= raw @page.content_for(:right_2) %>
+			</div>
 			<div id='right_1' class='section' >
 				<%= raw @page.content_for(:right_1) %>
 			</div>
 		</center>
+
 		<div id='recent_news'>
 			<%= render :partial => '/refinery/news/items/recent_posts' %>
 		</div>
 	</div>
 	<div id='home_left'>
 		<div class='section'>
-			<%=raw remove_imgs @page.content_for(:section_1)%>
+			<%= raw @page.content_for(:section_1) %>
 		</div>
 		<div class='section' >
 			<%= raw @page.content_for(:section_2) %>
