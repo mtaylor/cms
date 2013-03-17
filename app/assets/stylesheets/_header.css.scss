@@ -23,7 +23,8 @@ header {
 #notification {
   float: left;
   height: 35px;
-  margin-top: 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
   width: 100%;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -38,15 +39,16 @@ header {
 span.twitter {
   margin: auto;
   display: inline-block;
+  margin-bottom: 10px;
 }
 span.twitter_text {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: normal;
   font-style: italic;
 }
 
 span.twitter_title {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bolder;
   color: $primary-color;
   margin-right: 20px;
