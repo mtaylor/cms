@@ -149,10 +149,33 @@ img.twitter {
   border: 0px !important;
   border-radius: 0px !important;
 }
-.news_item {
+
+.news_item_div .news_item {
   font-size: 12px;
   margin-top: 5px;
   margin-bottom: 20px;
+}
+
+#body_content_left {
+  margin-top: 0px;
+  border-top: solid 1px $primary-color;
+  width: 60%;
+  float: left;
+}
+
+#body_content_right {
+  width: 35%;
+  float: right;
+  margin-top: 0 !important;
+}
+
+#body_content_left small {
+  color: $primary-color;
+  font-size: 12px;
+}
+
+#body_content_left a {
+  font-size: 12px;
 }
 
 #right_1 {
