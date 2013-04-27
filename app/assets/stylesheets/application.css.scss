@@ -1,4 +1,4 @@
-$background: white;
+$background: #ececec;
 $primary-color: #000055;
 $secondary-color: #afdde9;
 $info-color: #ff6c00;
@@ -92,7 +92,6 @@ img.thumbnail_large {
 #container {
   margin: 0px;
   float: left;
-  border-top: 5px solid $secondary-color;
   width: 100%
 }
 

@@ -12,6 +12,7 @@ gem 'nokogiri'
 gem 'therubyracer', require: "v8"
 gem 'mysql2'
 gem 'yaml_db'
+gem 'refinerycms-videojs'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

@@ -14,16 +14,18 @@
   <%= stylesheet_link_tag "home" if home_page? %>
   <%= stylesheet_link_tag "shadowbox-3.0.3/shadowbox.css" %>
   <%= stylesheet_link_tag "csvtable.css" %>
+  <%= stylesheet_link_tag "slidejs.css" %>
 
   <%= yield :stylesheets %>
 
   <%= render '/refinery/google_analytics' %>
 
   <%= javascript_include_tag 'modernizr-min' %>
-  <%= javascript_include_tag 'jquery-1.3.2' %>
+  <%= javascript_include_tag 'jquery-1.9.1.min.js' %>
   <%= javascript_include_tag 'jquery.csvToTable.js' %>
+  <%= javascript_include_tag 'jquery.slides.min.js' %>
 
-  <script src="http://connect.facebook.net/en_US/all.js"></script>
+ 
   <%= javascript_include_tag 'shadowbox-3.0.3/shadowbox.js' %>
   <script>
   			Shadowbox.init({
@@ -32,4 +34,5 @@
           continuous: true
         });
   </script>
+
 </head>
