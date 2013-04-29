@@ -8,6 +8,24 @@
 	  </div>
   </div>
 
+  <div id="home_article_left">
+  	<div class='home_article_left'>
+  		<%= raw @page.content_for(:left_content) %>
+  	</div>
+  </div>
+
+  <div id="home_article_right">
+  	<div id="home_article_right_title">
+  	<%= raw @page.content_for(:right_title) %>
+  	</div>
+ 	<div class='home_article_right'>
+  		<%= raw @page.content_for(:centre_content) %>
+  	</div>
+  	<div class='home_article_right'>
+  		<%= raw @page.content_for(:right_content) %>
+  	</div>
+  </div>
+	
 <script>
   $(document).ready(function() {
   	

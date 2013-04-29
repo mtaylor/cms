@@ -1,13 +1,12 @@
 <!-- Start Advanced Gallery Html Containers -->
 <div id="content">
-	<h1>HFHR Gallery</h1>
 	<div id="images">
 	</div>
 </div>
 
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
-		FB.api("/"+275051609293416+"/photos/?limit=200",function(response)
+		FB.api("/"+642411042443138+"/photos/?limit=200",function(response)
 		{
 			console.log(response["data"]);
 		    var photos = response["data"];
