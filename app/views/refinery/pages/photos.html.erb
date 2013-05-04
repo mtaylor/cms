@@ -5,9 +5,18 @@
 	</div>
 </div>
 
+<% 
+	uri = URI('https://graph.facebook.com/oauth/access_token?client_id=463416020400481&client_secret=d5887e5acb23ae04d96647b3bd87cb35&grant_type=client_credentials')
+	http = Net::HTTP.new(uri.host, uri.port)
+	http.use_ssl = true
+    request = Net::HTTP::Get.new(uri.request_uri)
+    response = http.request(request)
+    @access_token = response.body
+%>
+
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
-		FB.api("/"+275051609293416+"/photos/?limit=200",function(response)
+		FB.api("/"+275051609293416+"/photos/?limit=200&<%=@access_token%>",function(response)
 		{
 			console.log(response["data"]);
 		    var photos = response["data"];
