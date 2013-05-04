@@ -18,7 +18,6 @@
 	jQuery(document).ready(function($) {
 		FB.api("/"+275051609293416+"/photos/?limit=200&<%=@access_token%>",function(response)
 		{
-			console.log(response["data"]);
 		    var photos = response["data"];
 		    for(var v=0;v<photos.length;v++)
 		    {
